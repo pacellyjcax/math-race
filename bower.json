@@ -1,0 +1,9 @@
+{
+  "name": "math-race",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-socket-io": "~0.6.0",
+    "angular-moment": "^1.1.0"
+  }
+}

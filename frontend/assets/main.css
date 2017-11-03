@@ -1,0 +1,99 @@
+.freedoka{
+    font-family: 'Fredoka One', cursive;    
+}
+.tab{
+    border-color:#ccc;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tab td{
+    font-size:14px;
+    padding:10px 5px;
+    color:#333;
+    border-color:#ccc;
+    background-color:#fff;
+    border-width:1px;
+    border-style:solid;
+    overflow:hidden;
+    word-break:normal;
+}
+.winner{
+    margin: 40px;
+    max-width: 200px;
+    text-align: center;
+}
+.input-text{
+    padding: 5px;
+    font-size: 20px;
+    border-width: 1px;
+    min-width: 200px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: double;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.52);
+    text-shadow:  0px 0px 7px px rgba(66,66,66,.75);
+}
+.input-text:focus,
+.input-text:hover{
+    outline: none;
+}
+.input-number-area{
+    margin: 40px;
+    max-width: 200px;
+    text-align: center;
+}
+.input-number{
+    padding: 5px;
+    font-size: 20px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: double;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.52);
+    text-shadow:  0px 0px 7px px rgba(66,66,66,.75);
+}
+.input-number:focus,
+.input-number:hover{
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    margin: 0;
+    opacity: 0;
+    -webkit-appearance: none;
+    pointer-events: none;
+}
+.ranking {
+    position: absolute;
+    z-index: 10;
+    display: grid;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+.ranking-title{
+    font-size:16px;
+}
+.ranking td{
+    font-size:10px;
+    padding:5px 5px;
+    color:#333;
+    border-color:#ccc;
+    background-color:#fff;
+    border-width:1px;
+    border-style:solid;
+    overflow:hidden;
+    word-break:normal;
+}
+.countdown{
+    font-size:28px;
+    padding:5px 5px;
+    color:#B10F0F;
+}
