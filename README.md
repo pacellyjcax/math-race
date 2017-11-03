@@ -1,5 +1,14 @@
-npm i -g bower
-npm i
-npm start
+# MathRace
 
-Abrir Navegador em localhost:2525
+#### For use:
+
+## Prerequisites
+
+* NodeJS + NPM
+* npm i -g bower
+* npm i
+
+## Run Application
+
+* npm start
+* Open Browser at localhost:2525
